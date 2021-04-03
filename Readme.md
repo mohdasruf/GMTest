@@ -1,20 +1,20 @@
-#Framework used
+Framework used
 I have used serenity BDD framework for this test. Few advantages of Serenity framework is
 1. Webdriver instantiation will be done by the framework and the type of webdriver instance can be controlled by serenity.properties file
 2. Reports produced with screenshots.
 
-#Project Structure
+Project Structure
 The project is structured as followed:
 
-####1.The "serenity.properties" file in the root folder contains options like the base URL or when screenshots should be taken.
-####2.The Page Object classes are located in the "src/main/java/com/test/pages" folder.
-####3.The step classes are located in the located in the "src/test/java/com/test/cucumber/steps/serenity" folder.
-####4.The tests can be run using the runner file src/test/java/com/test/cucumber/BDDRunner.java
-####5.The feature files can be found in src/test/resources/features/order-product.feature
+1.The "serenity.properties" file in the root folder contains options like the base URL or when screenshots should be taken.
+2.The Page Object classes are located in the "src/main/java/com/test/pages" folder.
+3.The step classes are located in the located in the "src/test/java/com/test/cucumber/steps/serenity" folder.
+4.The tests can be run using the runner file src/test/java/com/test/cucumber/BDDRunner.java
+5.The feature files can be found in src/test/resources/features/order-product.feature
 
-#serenity.conf file contains the path to the webdriver executables
+serenity.conf file contains the path to the webdriver executables
 
-#Serenity.properties file
+Serenity.properties file
 ```webdriver.driver=chrome
     #webdriver.driver=remote
     #firefox, chrome,iexplorer,phantomjs,htmlunit,edge:
