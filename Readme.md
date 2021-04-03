@@ -13,7 +13,8 @@ Details of Project Structure
 
 
 Serenity.properties file
-```webdriver.driver=chrome
+```
+    webdriver.driver=chrome
     #webdriver.driver=remote
     #firefox, chrome,iexplorer,phantomjs,htmlunit,edge:
     
