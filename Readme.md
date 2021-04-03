@@ -4,12 +4,14 @@ I have used serenity BDD framework for this test. Few advantages of Serenity fra
 2. Reports produced with screenshots.
 
 Details of Project Structure
-1.  The "serenity.properties" file in the root folder contains options like the base URL or when screenshots should be taken.
-2.  The Page Object classes are located in the "src/main/java/com/test/pages" folder.
-3.  The step classes are located in the located in the "src/test/java/com/test/cucumber/steps/serenity" folder.
-4.  The tests can be run using the runner file src/test/java/com/test/cucumber/BDDRunner.java
-5.  The feature files can be found in src/test/resources/features/order-product.feature
-6.  serenity.conf file contains the path to the webdriver executables
+1.  This project uses Java as programming language and maven as build tool. 
+2.  To build the project run - mvn clean install.
+3.  The "serenity.properties" file in the root folder contains options like the base URL or when screenshots should be taken.
+4.  The Page Object classes are located in the "src/main/java/com/test/pages" folder.
+5.  The step classes are located in the located in the "src/test/java/com/test/cucumber/steps/serenity" folder.
+6.  The tests can be run using the runner file src/test/java/com/test/cucumber/BDDRunner.java
+7.  The feature files can be found in src/test/resources/features/order-product.feature
+8.  serenity.conf file contains the path to the webdriver executables
 
 
 Serenity.properties file
