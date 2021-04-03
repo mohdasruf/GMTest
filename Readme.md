@@ -1,4 +1,4 @@
-Framework details
+Framework details:
 I have used serenity BDD framework for this test. Few advantages of Serenity framework is
 1. Webdriver instantiation will be done by the framework and the type of webdriver instance can be controlled by serenity.properties file
 2. Reports produced with screenshots.
